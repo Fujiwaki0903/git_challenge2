@@ -1,0 +1,31 @@
+PS C:\Users\81803> cd C:\Users\81803\Desktop\lesson\samrai
+PS C:\Users\81803\Desktop\lesson\samrai> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\81803\Deskto
+    p\lesson\samrai
+
+
+Mode                 LastWriteTime Leng
+                                     th
+----                 ------------- ---- 
+d-----        2024/01/21     12:20      
+
+
+PS C:\Users\81803\Desktop\lesson\samrai> cd C:\Users\81803\Desktop\lesson\samrai\git_challenge
+PS C:\Users\81803\Desktop\lesson\samrai\git_challenge> git init
+Initialized empty Git repository in C:/Users/81803/Desktop/lesson/samrai/git_challenge/.git/
+PS C:\Users\81803\Desktop\lesson\samrai\git_challenge> git add hello_world.txt
+PS C:\Users\81803\Desktop\lesson\samrai\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) ffcc3a2] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt     
+PS C:\Users\81803\Desktop\lesson\samrai\git_challenge> git add hello_world.txt
+PS C:\Users\81803\Desktop\lesson\samrai\git_challenge> git commit -m "日本語訳を
+追加"
+[main 68fd7d0] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\81803\Desktop\lesson\samrai\git_challenge> git log --oneline
+68fd7d0 (HEAD -> main) 日本語訳を追加
+ffcc3a2 hello_world.txtを追加        
+PS C:\Users\81803\Desktop\lesson\samrai\git_challenge>
